@@ -1,0 +1,26 @@
+# Created with YamlCreate.ps1 v2.1.3 using InputObject 🤖 $debug=QUSU.7-2-6
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
+
+PackageIdentifier: Sandboxie.Plus
+PackageVersion: 1.5.1
+MinimumOSVersion: 10.0.0.0
+InstallerType: inno
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2022-10-26
+Installers:
+- Architecture: arm64
+  InstallerUrl: https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.5.1/Sandboxie-Plus-ARM64-v1.5.1.exe
+  InstallerSha256: 9AAFFFE2B39A32985F0C789ACEA2C8F54C254B4BB769425F12F26BF24B261CE1
+- Architecture: x64
+  InstallerUrl: https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.5.1/Sandboxie-Plus-x64-v1.5.1.exe
+  InstallerSha256: ABC317341023EFA371906916EE667C21B7C5BEEBE57728162DEE54CD1D931923
+- Architecture: x86
+  InstallerUrl: https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.5.1/Sandboxie-Plus-x86-v1.5.1.exe
+  InstallerSha256: A9910507B132539F9EB38031880CDE34AA1FEEEDCAFFDB45D36BD93D8E71E1B7
+ManifestType: installer
+ManifestVersion: 1.2.0
