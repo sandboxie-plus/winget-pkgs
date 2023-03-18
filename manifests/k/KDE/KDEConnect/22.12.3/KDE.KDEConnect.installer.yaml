@@ -11,14 +11,14 @@ UpgradeBehavior: install
 Installers:
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://binary-factory.kde.org/view/Windows%2064-bit/job/kdeconnect-kde_Release_win64/1279/artifact/kdeconnect-kde-22.12.3-1279-windows-cl-msvc2019-x86_64.exe
-  InstallerSha256: 0913885D77FB216351E4F9AD82D8323BDA51D9CA0311DE2D9B0B7CD1E4C0ED99
+  InstallerUrl: https://binary-factory.kde.org/view/Windows%2064-bit/job/kdeconnect-kde_Release_win64/1281/artifact/kdeconnect-kde-22.12.3-1281-windows-cl-msvc2019-x86_64.exe
+  InstallerSha256: 629BF23500500376243F3DD74D46629481A0D7B2F155DB44EEDA52A17E210053
   InstallerSwitches:
     Custom: /ALLUSERS
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://binary-factory.kde.org/view/Windows%2064-bit/job/kdeconnect-kde_Release_win64/1279/artifact/kdeconnect-kde-22.12.3-1279-windows-cl-msvc2019-x86_64.exe
-  InstallerSha256: 0913885D77FB216351E4F9AD82D8323BDA51D9CA0311DE2D9B0B7CD1E4C0ED99
+  InstallerUrl: https://binary-factory.kde.org/view/Windows%2064-bit/job/kdeconnect-kde_Release_win64/1281/artifact/kdeconnect-kde-22.12.3-1281-windows-cl-msvc2019-x86_64.exe
+  InstallerSha256: 629BF23500500376243F3DD74D46629481A0D7B2F155DB44EEDA52A17E210053
   InstallerSwitches:
     Custom: /CURRENTUSER
 ManifestType: installer
