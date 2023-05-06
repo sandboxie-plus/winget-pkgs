@@ -1,15 +1,15 @@
-# Created with YamlCreate.ps1 v2.2.3 $debug=QUSU.CRLF.7-3-3.Win32NT
+# Created with YamlCreate.ps1 v2.2.4 $debug=QUSU.CRLF.7-3-4.Win32NT
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.4.0.schema.json
 
-PackageIdentifier: MyCloudGame.AirGamePlay
-PackageVersion: 1.5.1-x64
+PackageIdentifier: MyCloudGame.AirGameServer
+PackageVersion: 1.6.1-x64
 PackageLocale: zh-CN
 Publisher: MyCloudGame
 PublisherUrl: https://mycloudgame.com/
 PublisherSupportUrl: https://mycloudgame.com/manual.html
 # PrivacyUrl:
 Author: MyCloudGame
-PackageName: AirGamePlay
+PackageName: AirGameServer
 PackageUrl: https://mycloudgame.com/
 License: 免费软件
 LicenseUrl: https://mycloudgame.com/license.txt
@@ -25,9 +25,9 @@ Tags:
 - 远程桌面
 # Agreements:
 ReleaseNotes: |-
-  - UI 界面全面更新
-  - 网络处理库重构，可以自动适应带宽，自动处理丢包
-  - 更好的网络连接能力与提示信息
+  - 网络库升级，自适应的前向纠错处理
+  - 支持私有部署中继服务器
+  - 支持实时显示当前会话信息（帧率、带宽等）
 ReleaseNotesUrl: https://mycloudgame.com/download.html
 # PurchaseUrl:
 # InstallationNotes:
