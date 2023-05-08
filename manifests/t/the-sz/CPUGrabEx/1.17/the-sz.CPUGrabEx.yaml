@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2023/May/06
+# Created using wingetcreate 1.2.5.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.4.0.schema.json
 
-PackageIdentifier: AsciidocFX.AsciidocFX
-PackageVersion: 1.8.5
+PackageIdentifier: the-sz.CPUGrabEx
+PackageVersion: 1.17
 DefaultLocale: en-US
 ManifestType: version
 ManifestVersion: 1.4.0
