@@ -1,6 +1,6 @@
 id: moderatorTriggers
 name: GitOps.PullRequestIssueManagement
-description: GitOps.PullRequestIssueManagement primitive
+description: Defines the users and permissions for the moderators
 owner:
 resource: repository
 disabled: false
@@ -120,6 +120,30 @@ configuration:
                 then:
                   - addLabel:
                       label: Hardware
+              # Area-Bots
+              - if:
+                  - commentContains:
+                      pattern: '\[[Pp]olicy\]\s+[aA]rea[\s-][bB]ots'
+                      isRegex: True
+                then:
+                  - addLabel:
+                      label: Area-Bots
+              # Area-Matching
+              - if:
+                  - commentContains:
+                      pattern: '\[[Pp]olicy\]\s+[aA]rea[\s-][mM]atching'
+                      isRegex: True
+                then:
+                  - addLabel:
+                      label: Area-Matching
+              # Area-Validation-Pipeline
+              - if:
+                  - commentContains:
+                      pattern: '\[[Pp]olicy\]\s+[aA]rea[\s-][vV]alidation[\s-][pP]ipeline'
+                      isRegex: True
+                then:
+                  - addLabel:
+                      label: Area-Validation-Pipeline
               # Needs-Attention
               - if:
                   - commentContains:
@@ -191,18 +215,6 @@ configuration:
                       label: Needs-Feedback-Hub
                   - removeLabel:
                       label: Needs-Author-Feedback
-              # Retry Automerge
-              - if:
-                  - commentContains:
-                      pattern: '\[[Pp]olicy\]\s+[rR]etry[\s-][aA]utomerge'
-                      isRegex: True
-                  - hasLabel:
-                      label: Validation-Completed
-                  - hasLabel:
-                      label: Moderator-Approved
-                then:
-                  - enableAutoMerge:
-                      mergeMethod: Squash
           # If the payload is a Pull_Request_Review and an approval, add the Moderator-Approved label
           - if:
               - payloadType: Pull_Request_Review
