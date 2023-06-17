@@ -1,4 +1,4 @@
-# Created with WinGet Releaser v2 using Komac v1.6.0
+# Created with WinGet Releaser v2 using Komac v1.7.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
 
 PackageIdentifier: Neovim.Neovim.Nightly
@@ -6,11 +6,14 @@ PackageVersion: 0.10.0
 InstallerLocale: en-US
 InstallerType: wix
 Scope: machine
-ReleaseDate: 2023-06-14
+ReleaseDate: 2023-06-16
+AppsAndFeaturesEntries:
+- DisplayName: Neovim
+  UpgradeCode: '{207A1A70-7B0C-418A-A153-CA6883E38F4D}'
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.msi
-  InstallerSha256: 56745D54E021EF1B0A1A27C407B0EDB4748CA86343FEF30D145B77D726D87809
-  ProductCode: '{554567CD-74EE-4E4B-9CDC-7237CBF68F1F}'
+  InstallerSha256: AACC582C478211C5F7AE3BF05D6FD078E96380D16C8F2B87326A26B8E173F790
+  ProductCode: '{86A0DF4F-39C1-4482-B093-A08DCB765E63}'
 ManifestType: installer
 ManifestVersion: 1.4.0
