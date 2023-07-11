@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
 
 PackageIdentifier: Geph.Geph
-PackageVersion: 4.8.5
+PackageVersion: 4.8.9
 Installers:
   - Architecture: x86
     InstallerLocale: en-US
@@ -9,8 +9,8 @@ Installers:
     - Windows.Desktop
     MinimumOSVersion: 6.1.7601.0
     InstallerType: inno
-    InstallerUrl: https://f001.backblazeb2.com/file/geph4-dl/geph-releases/windows-stable/4.8.5/geph-windows-setup.exe
-    InstallerSha256: EF66E5EAFD8ED3544E243F5A65893C9B3A9C61F9EF78ED263BEE1E8D98E00137
+    InstallerUrl: https://f001.backblazeb2.com/file/geph4-dl/geph-releases/windows-stable/4.8.9/geph-windows-setup.exe
+    InstallerSha256: B6635F47529AF2DB7EA52719E5D66F1F977093A0165493224543FB95F4D0C1FB
     Scope: machine
     InstallModes:
     - interactive
@@ -22,9 +22,9 @@ Installers:
       - PackageIdentifier: Microsoft.EdgeWebView2Runtime
     ElevationRequirement: elevatesSelf
     AppsAndFeaturesEntries:
-      - DisplayName: Geph version v4.8.5
-        DisplayVersion: v4.8.5
+      - DisplayName: Geph version v4.8.9
+        DisplayVersion: v4.8.9
         Publisher: Gephyra OÜ
-    ReleaseDate: 2023-05-29
+    ReleaseDate: 2023-07-04
 ManifestType: installer
 ManifestVersion: 1.4.0
