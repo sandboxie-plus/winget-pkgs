@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 v2.2.8 $debug=QUSU.CRLF.7-3-5.Win32NT
+# Created with YamlCreate.ps1 v2.2.8 $debug=QUSU.CRLF.7-3-6.Win32NT
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.4.0.schema.json
 
 PackageIdentifier: AuraMarker.Lattics
-PackageVersion: 1.10.2
+PackageVersion: 1.10.3
 PackageLocale: zh-CN
 Publisher: AuraMarker
 PublisherUrl: https://auramarker.com/
@@ -34,7 +34,7 @@ Tags:
 - 笔记
 - 编辑器
 - 脑图
-ReleaseNotes: 【优化】解决文章导出为图片和PDF时的一些细节问题
+ReleaseNotes: 【优化】大幅优化改进了图谱的性能，可以非常流畅的拖拽和渲染节点内容
 # ReleaseNotesUrl:
 # PurchaseUrl:
 # InstallationNotes:
