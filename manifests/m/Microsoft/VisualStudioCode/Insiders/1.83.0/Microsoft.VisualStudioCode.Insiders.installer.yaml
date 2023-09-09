@@ -10,27 +10,27 @@ InstallerSwitches:
 Installers:
   - Architecture: arm64
     Scope: machine
-    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/5a400e53e985dc5e24f6ee574b07ab23943841c5/VSCodeSetup-arm64-1.83.0-insider.exe'
-    InstallerSha256: 992db5954dfda0992ecd104aafd00e29ac35f550103094ad4b899e4b27730993
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/b257cce9e7fa2d5f475ac16c15b40280d0b97957/VSCodeSetup-arm64-1.83.0-insider.exe'
+    InstallerSha256: 15f3ffc0fd2f285d778d2c02ee4e2eb2ce927972fbe810f6fb1959bb441e8a12
   - Architecture: arm64
     Scope: user
-    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/5a400e53e985dc5e24f6ee574b07ab23943841c5/VSCodeUserSetup-arm64-1.83.0-insider.exe'
-    InstallerSha256: 37e15e9ddbb5f0410bb6bc44988075932b858fe2cb4ebb87068e0b0a2b8ca77d
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/b257cce9e7fa2d5f475ac16c15b40280d0b97957/VSCodeUserSetup-arm64-1.83.0-insider.exe'
+    InstallerSha256: 660778e299f28c00abc702fc64334e486ee198329a8af02b405f7b66ca06dce9
   - Architecture: x64
     Scope: machine
-    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/5a400e53e985dc5e24f6ee574b07ab23943841c5/VSCodeSetup-x64-1.83.0-insider.exe'
-    InstallerSha256: 0e69858e6d355c00ad003ab1e708704e0130dab71cbc9f43ea2e044122c0be5a
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/b257cce9e7fa2d5f475ac16c15b40280d0b97957/VSCodeSetup-x64-1.83.0-insider.exe'
+    InstallerSha256: 3d1fe95192d7f273affbebb43943024cd70b3358acd5b5aa3ca18f44bd48d72f
   - Architecture: x64
     Scope: user
-    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/5a400e53e985dc5e24f6ee574b07ab23943841c5/VSCodeUserSetup-x64-1.83.0-insider.exe'
-    InstallerSha256: 6d9e3c6585f93ec3532ceebd0e60b888e6a19325b97ca342caf15e04a0f76197
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/b257cce9e7fa2d5f475ac16c15b40280d0b97957/VSCodeUserSetup-x64-1.83.0-insider.exe'
+    InstallerSha256: fd842c1904890a18aba559022d513f34843b4738032a88bc95c14646a7920fb7
   - Architecture: x86
     Scope: machine
-    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/5a400e53e985dc5e24f6ee574b07ab23943841c5/VSCodeSetup-ia32-1.83.0-insider.exe'
-    InstallerSha256: ec2cab80ac08685b6567e0a39b4fabfbaa5ceef3e9490fc5e695e0a624b7c538
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/b257cce9e7fa2d5f475ac16c15b40280d0b97957/VSCodeSetup-ia32-1.83.0-insider.exe'
+    InstallerSha256: 5dfd169bb9a80ee117bc84faf431e41cf6ff3dee3ef29e1fdf1f46e7847d5371
   - Architecture: x86
     Scope: user
-    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/5a400e53e985dc5e24f6ee574b07ab23943841c5/VSCodeUserSetup-ia32-1.83.0-insider.exe'
-    InstallerSha256: 19db5507c8f115203f2290d4149daa0fd0bc1aebb7e9a6339a959f7cb558fcf6
+    InstallerUrl: 'https://az764295.vo.msecnd.net/insider/b257cce9e7fa2d5f475ac16c15b40280d0b97957/VSCodeUserSetup-ia32-1.83.0-insider.exe'
+    InstallerSha256: 48c52a082259c5716d0b18af0fc69927f751fa68a72b9befd0ff4f8b2580ce40
 ManifestType: installer
 ManifestVersion: 1.4.0
