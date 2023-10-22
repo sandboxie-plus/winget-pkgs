@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 v2.2.8 $debug=QUSU.CRLF.7-3-6.Win32NT
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-8.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.5.0.schema.json
 
 PackageIdentifier: JLC.EasyEDA
-PackageVersion: 6.5.34
+PackageVersion: 6.5.36
 PackageLocale: en-US
 Publisher: EasyEDA Inc.
 PublisherUrl: https://easyeda.com/
@@ -22,7 +22,7 @@ Tags:
 - eda
 - electronic-design-automation
 - pcb
-ReleaseNotes: '- Fixed the problem that the DRC of copper area detection is incorrect issue'
+# ReleaseNotes:
 ReleaseNotesUrl: https://easyeda.com/page/update-record
 PurchaseUrl: https://easyeda.com/page/pricing
 # InstallationNotes:
@@ -32,4 +32,4 @@ Documentations:
 - DocumentLabel: Tutorial
   DocumentUrl: https://docs.easyeda.com/en/Introduction/Introduction-to-EasyEDA/index.html
 ManifestType: defaultLocale
-ManifestVersion: 1.4.0
+ManifestVersion: 1.5.0
