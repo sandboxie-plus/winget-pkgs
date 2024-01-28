@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2024/Jan/27
+# Automatically updated by the winget bot at 2024/Jan/26
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.4.0.schema.json
 
-PackageIdentifier: KoushikNaskar.InteractiveDataEditor
-PackageVersion: 2.13.1.0
+PackageIdentifier: Stacher.youtube-dl
+PackageVersion: 6.0.28
 DefaultLocale: en-US
 ManifestType: version
 ManifestVersion: 1.4.0
