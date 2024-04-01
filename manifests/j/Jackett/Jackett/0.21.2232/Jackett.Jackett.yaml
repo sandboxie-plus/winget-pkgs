@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2024/Mar/21
+# Created with WinGet Releaser v2 using Komac v1.11.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.5.0.schema.json
 
-PackageIdentifier: Yandex.Messenger
-PackageVersion: 2.192.0
+PackageIdentifier: Jackett.Jackett
+PackageVersion: 0.21.2232
 DefaultLocale: en-US
 ManifestType: version
 ManifestVersion: 1.5.0
