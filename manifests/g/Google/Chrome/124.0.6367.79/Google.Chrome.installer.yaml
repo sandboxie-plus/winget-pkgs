@@ -1,0 +1,39 @@
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Google.Chrome
+PackageVersion: 124.0.6367.79
+InstallerType: wix
+Scope: machine
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+- tel
+FileExtensions:
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi
+  InstallerSha256: 5806709E466A26565143777A2D6A60BDA7047C33854F3035A07660B6D1060ADC
+  ProductCode: '{D11E1A6E-5F53-33D9-A5C0-5B0F41F6C246}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{D11E1A6E-5F53-33D9-A5C0-5B0F41F6C246}'
+    UpgradeCode: '{C1DFDF69-5945-32F2-A35E-EE94C99C7CF4}'
+- Architecture: x64
+  InstallerUrl: https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi
+  InstallerSha256: DA03D5B4A6F9ACBB7A27E592CFD9161A11E61A149D22FCC35091B9B154A5E191
+  ProductCode: '{510977A7-158D-327D-AEBC-66E5239FC916}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{510977A7-158D-327D-AEBC-66E5239FC916}'
+    UpgradeCode: '{C1DFDF69-5945-32F2-A35E-EE94C99C7CF4}'
+ManifestType: installer
+ManifestVersion: 1.6.0
