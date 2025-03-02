@@ -9,14 +9,14 @@ ProductCode: Kaidan
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4719-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: BB5379815874BA4EA5B21F4C573B6210944BF1E1773165DEBC7431C40635266D
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4732-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 51C0102B0613BF434F8E8059C53172F550C35E2043B651F2E461B086B9E13746
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4719-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: BB5379815874BA4EA5B21F4C573B6210944BF1E1773165DEBC7431C40635266D
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4732-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 51C0102B0613BF434F8E8059C53172F550C35E2043B651F2E461B086B9E13746
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
