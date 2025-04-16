@@ -11,7 +11,13 @@ on:
       - 'sync'
   schedule:
     - cron: '0 0 * * *'
+
   workflow_dispatch:
+    inputs:
+      sync_test_mode: # Adds a boolean option that appears during manual workflow run for easy test mode config
+        description: 'Fork Sync Test Mode'
+        type: boolean
+        default: false
 
 jobs:
   sync_latest_from_upstream:
@@ -21,20 +27,26 @@ jobs:
     steps:
     - name: Checkout target repo
       uses: actions/checkout@v4
+      with:
+        # optional: set the branch to checkout,
+        # sync action checks out your 'target_sync_branch' anyway
+        ref: master
+        # REQUIRED if your upstream repo is private (see wiki)
+        persist-credentials: false
 
     - name: Sync upstream changes
       id: sync
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
       with:
+        target_sync_branch: master
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-        target_sync_branch: master
         upstream_sync_branch: master
         upstream_sync_repo: microsoft/winget-pkgs
         upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
 
-        # Set test_mode true to run tests instead of the true action!!
-        test_mode: false
+        # Set test_mode true during manual dispatch to run tests instead of the true action!!
+        test_mode: ${{ inputs.sync_test_mode }}
 
     - name: New commits found
       if: steps.sync.outputs.has_new_commits == 'true'
