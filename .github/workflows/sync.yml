@@ -45,6 +45,7 @@ jobs:
 
         # Set test_mode true during manual dispatch to run tests instead of the true action!!
         test_mode: ${{ inputs.sync_test_mode }}
+        upstream_pull_args: '--allow-unrelated-histories'
 
     - name: New commits found
       if: steps.sync.outputs.has_new_commits == 'true'
