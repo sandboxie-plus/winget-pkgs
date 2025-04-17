@@ -1,13 +1,13 @@
 name: 'Upstream Sync!'
 
 on:
+  schedule:
+    - cron: '0 0 * * *'
   push:
     branches:
       - 'upstream_sync'
     paths:
       - '.github/workflows/sync.yml'
-  schedule:
-    - cron: '0 0 * * *'
 
   workflow_dispatch:
     inputs:
@@ -30,6 +30,7 @@ jobs:
         ref: master
         # REQUIRED if your upstream repo is private (see wiki)
         persist-credentials: false
+        fetch-depth: 0
 
     - name: Sync upstream changes
       id: sync
