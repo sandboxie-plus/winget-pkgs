@@ -1,13 +1,9 @@
 name: 'Upstream Sync!'
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
   push:
     branches:
       - 'upstream_sync'
-    paths:
-      - '.github/workflows/sync.yml'
 
   workflow_dispatch:
     inputs:
