@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Checkout target repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         # optional: set the branch to checkout,
         # sync action checks out your 'target_sync_branch' anyway
